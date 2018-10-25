@@ -1,0 +1,12 @@
+
+@media (min-width: $screen-md-min) { 
+	.header{
+		.navbar{
+			padding: 0;
+		}
+		.navbar-nav{
+			margin-left: 0px;
+			margin-right: auto;
+		}
+	}
+}

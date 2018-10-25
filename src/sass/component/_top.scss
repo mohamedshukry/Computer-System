@@ -1,0 +1,29 @@
+.scrollup{
+    width: 45px;
+    height: 85px;
+    line-height: 85px;
+    border: 2px solid $secondary-color;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 1000;
+    border-radius: 100px;
+    text-align: center;
+    @include transition(opacity .5s, background-color .5s);
+    /*@include prefixer(animation-name , bounce, webkit moz o ms);*/
+    /*@include prefixer(animation , bounce 2s ease infinite , webkit moz o ms);*/
+    &:hover{
+        background: $secondary-color;
+        opacity: 1;
+        i{
+            color: #FFF;
+        }
+    }
+    i{
+        font-size: 30px;
+        @include center();
+        color: $secondary-color;
+        @include transition(all .5s ease);
+    }
+}

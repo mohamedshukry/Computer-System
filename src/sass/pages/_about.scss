@@ -1,0 +1,35 @@
+.about{
+	padding: 70px 0;
+	.content-img{
+		border-radius: 30px;
+		overflow: hidden;
+		margin: 50px 0;
+	}	
+	.content-about{
+		margin: 50px 0;
+		.first-tittel{
+			color: #777;
+			font-size: 18px;
+		}
+		.secondary-tittel{
+			font-size: 36px;
+    		line-height: 46px;
+    		font-weight: bold;
+    		span{
+    			color: $primary-color;
+    		}
+		}
+		p{
+			font-size: 14px;
+		    color: #777777;
+		    line-height: 24px;
+		}
+	}
+}
+@media (min-width: $screen-lg-min) { 
+	.about{
+		.row:nth-child(odd){
+			flex-direction: row-reverse;
+		}
+	}
+}

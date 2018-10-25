@@ -1,0 +1,23 @@
+.pagination{
+  margin-top: 50px;
+  .page-item.active .page-link{
+    background-color: $secondary-color;
+    border-color: $secondary-color;
+    margin-left: 15px;
+    color: #FFF;
+  }
+  .page-item .page-link{
+    margin-left: 15px;
+    border-radius: 4px;
+    border:2px solid #dcdbdb;
+    color: #000;
+    font-weight: bold;
+    @include transition(ease-in-out .5s);
+    padding: .75rem 1rem;
+    &:hover{
+      border:2px solid $secondary-color;
+      color: #FFF; 
+      background-color: $secondary-color;
+    }
+  }
+}

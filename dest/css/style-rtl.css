@@ -1,0 +1,86 @@
+/*Fonts*/
+/*Colors*/
+/*Social Colors*/
+/*Screens*/
+/*Import Fonts*/
+@import url("https://fonts.googleapis.com/css?family=Cairo|Nunito:400,800&amp;subset=arabic");
+@import url("https://fonts.googleapis.com/css?family=El+Messiri|Kalam&amp;subset=arabic");
+body {
+  direction: rtl;
+}
+
+.float-right, .float-md-right {
+  float: left !important;
+}
+
+.float-md-left, .float-left {
+  float: right !important;
+}
+
+.dropdown-menu {
+  left: auto !important;
+  right: 0 !important;
+}
+
+.dropdown-item {
+  text-align: right !important;
+}
+
+.mr-3 {
+  margin-left: 1rem !important;
+}
+
+.list-inline {
+  padding-right: 0;
+}
+
+.list-inline-item:last-child {
+  margin-right: 5px !important;
+}
+
+.list-unstyled {
+  padding-right: 0;
+}
+
+/*Global*/
+.breadcrumb-item {
+  float: right !important;
+}
+
+input[type=radio], input[type=checkbox] {
+  margin: 3px -16px 0 0 !important;
+}
+
+.pagination .page-item.active .page-link {
+  margin-left: 0px;
+  margin-right: 15px;
+}
+.pagination .page-item .page-link {
+  margin-left: 0px;
+  margin-right: 15px;
+}
+
+.scrollup {
+  right: auto;
+  left: 10px;
+}
+
+.banner-section .breadcrumb-item + .breadcrumb-item::before {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+@media (min-width: 768px) {
+  .header .navbar {
+    padding: 0;
+  }
+  .header .navbar-nav {
+    margin-left: 0px;
+    margin-right: auto;
+  }
+}
+
+/*# sourceMappingURL=style-rtl.css.map */

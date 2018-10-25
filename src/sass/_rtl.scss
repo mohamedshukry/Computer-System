@@ -1,0 +1,26 @@
+.pagination{
+  .page-item.active .page-link{
+    margin-left: 0px;
+    margin-right: 15px;
+  }
+  .page-item .page-link{
+    margin-left: 0px;
+    margin-right: 15px;
+  }
+}
+.scrollup{
+  right: auto;
+  left: 10px;
+}
+.banner-section{
+  .breadcrumb-item+.breadcrumb-item::before{
+    @include prefixer(transform , rotate(180deg) , webkit moz o ms);
+  }
+}
+
+@media (min-width: $screen-md-min) {
+
+}
+@media (min-width: $screen-lg-min) {
+
+} 

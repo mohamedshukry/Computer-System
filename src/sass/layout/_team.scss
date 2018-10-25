@@ -1,0 +1,60 @@
+.team{
+	padding: 80px 0;
+	.inner-team{
+		margin-bottom: 50px;
+		.text-team{
+			margin-left: 60px;
+			background-color: #eee;
+			padding: 10px;
+			color: #706d6d;
+			border: 1px solid #eee;
+			margin-bottom: 20px;
+			position: relative;
+			&:after{
+				content: "";
+			    display: inline-block;
+			    position: absolute;
+			  	bottom: -15px;
+			  	left: 30px;
+			  	border-right: 10px solid white;
+			  	border-left: 10px solid white;
+			  	border-top: 15px solid #eee;
+			  	transform: skew(120deg);
+			  	border-bottom: 10px solid transform;
+			}
+
+		}
+		.media{
+			img{
+				border:5px dotted rgba($primary-color, 0.4);
+			}
+			.media-body{
+				padding: 20px;
+				.title-team{
+					text-transform: uppercase;
+					font-weight: 600;
+					font-family: $title-family;
+				}
+				span{
+					display: block;
+					text-transform: uppercase;
+					font-weight: 600;
+					color: $secondary-color;
+				}
+				.go{
+					margin-top: -20px;
+				    animation-name: example;
+				    animation-duration: 1s;
+					i{
+						color: $secondary-color;
+						font-size: 20px;
+					}
+				}
+			}
+		}
+	}
+}
+@keyframes example {
+    from {margin-right: 0}
+    to {margin-right: 20px;}
+}
