@@ -82,5 +82,36 @@ input[type=radio], input[type=checkbox] {
     margin-right: auto;
   }
 }
+.team .inner-team .text-team:after {
+  left: auto;
+  right: 80px;
+  transform: skew(-120deg);
+}
+.team .inner-team .media img {
+  border: 5px dotted rgba(2, 66, 131, 0.4);
+}
+.team .inner-team .media .media-body {
+  padding: 20px;
+}
+.team .inner-team .media .media-body .title-team {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Kalam", cursive, "El Messiri", sans-serif;
+}
+.team .inner-team .media .media-body span {
+  display: block;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #d83f42;
+}
+.team .inner-team .media .media-body .go {
+  margin-top: -20px;
+  animation-name: example;
+  animation-duration: 1s;
+}
+.team .inner-team .media .media-body .go i {
+  color: #d83f42;
+  font-size: 20px;
+}
 
 /*# sourceMappingURL=style-rtl.css.map */
